@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero{
+    background-color: royalblue;
+    
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    border: 5px solid black;
+}
+
+form{
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+legend{
+    font-size: 30px;
+    text-align: center;
+}
+
+.first-name{
+    font-style: italic;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+#first-name{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.last-name{
+    font-style: italic;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#last-name{
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.email{
+    padding: 10px 10px;
+    margin: 10px;
+    font-size: 25px;
+}
+
+#email{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.status{
+    font-family: sans-serif;
+    font-size: 25px;
+    padding: 10px 20px;
+}
+
+#status{
+    font-size: 25px;
+}
+
+p{
+    font-size: 23px;
+    padding: 10px 15px;
+}
+
+.html{
+    padding: 10px 15px;
+    font-size: 20px;
+}
+
+.css{
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+.javascript {
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+#comment {
+    font-size: 30px;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+#Comments {
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 500;
+}
+
+.sign{
+    padding: 15px 10px;
+    font-size: 25px;
+}
+
+.agree{
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+ .submit{
+    text-align: center;
+   
+ }
+
+.btn{
+    font-size: 30px;
+    margin: 30px;
+}

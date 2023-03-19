@@ -1,0 +1,77 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>form survey</title>
+</head>
+<body>
+    <div class="hero">
+        <form action="submit">
+            <fieldset>
+                <legend>
+                    <label for="add-user">ADD USER</label>
+                </legend>
+                    <div class="first-name">
+                        <label for="first-name">FirstName</label>
+                        <input id="first-name" type="text" value="emmanuel">
+                    </div>
+
+                    <div class="last-name">
+                        <label for="last-name">LastName</label>
+                        <input id="last-name" type="text" value="johnny">
+                    </div>
+                    
+                    <div class="email">
+                        <label for="email">Email</label>
+                        <input id="email" type="email">
+                    </div>
+
+                    <div class="status">
+                    <label for="status">Status</label>
+                    <select name="status" id="status">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="guest">Guest</option>
+                    </select>
+                    </div>
+                    <p>"Choose your favorite programming language:</p>
+                    <label class="html" for="html">HTML</label>
+                    <input type="radio">
+                    
+                    <div class="css">
+                        <label for="">CSS</label>
+                        <input type="radio">
+                    </div>
+
+                    
+                    <div class="javascript">
+                        <label for="">JavaScript</label>
+                        <input type="radio">
+                    </div>
+            <br>
+                    <div class="comment">
+                        <label id="comment" for="Comments">Comments</label>
+                        <br>
+ <textarea name="comment" id="Comments" cols="30" rows="10"></textarea>
+
+                        <input type="date">
+                    </div>
+
+<div class="sign">
+    <label for="sign-up">Sign up for newsleeter</label>
+    <input type="checkbox">
+</div>
+<div class="agree">
+    <label for="agree">Agree to terms and conditions</label>
+    <input id="check" type="checkbox">
+</div>
+<div class="submit">
+    <input class="btn" type="button" value="Submit">
+</div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
